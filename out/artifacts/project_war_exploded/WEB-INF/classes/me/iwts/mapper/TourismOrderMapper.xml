@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.iwts.mapper.TourismOrderMapper">
+    <resultMap id="tourismOrderResultMap" type="me.iwts.bean.TourismOrder">
+        <id property="id" column="id" javaType="String" />
+        <result property="account" column="account" javaType="String" />
+        <result property="tourismId" column="tourismId" javaType="int" />
+    </resultMap>
+
+    <insert id="insertOrder" useGeneratedKeys="true" keyProperty="id">
+        insert into tourism_order (id,account,tourismId)
+        values (#{id},#{account},#{tourismId})
+    </insert>
+
+    <delete id="deleteOrderById" parameterType="String">
+        delete from tourism_order where id=#{id}
+    </delete>
+
+    <select id="selectOrderById" resultMap="tourismOrderResultMap">
+        select *
+        from tourism_order
+        where id=#{id}
+    </select>
+
+    <select id="selectOrderByAccount" resultMap="tourismOrderResultMap">
+        select *
+        from tourism_order
+        where account=#{account}
+    </select>
+
+    <select id="selectOrderByTourismId" resultMap="tourismOrderResultMap">
+        select *
+        from tourism_order
+        where tourismId=#{tourismId}
+    </select>
+</mapper>

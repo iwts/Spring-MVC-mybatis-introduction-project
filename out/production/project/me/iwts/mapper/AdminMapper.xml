@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.iwts.mapper.AdminMapper">
+    <resultMap id="userResultMap" type="me.iwts.bean.Admin">
+        <id property="id" column="id" javaType="Integer" />
+        <result property="account" column="account" javaType="String" />
+        <result property="passwd" column="passwd" javaType="String" />
+    </resultMap>
+
+    <select id="selectAdminById" resultMap="userResultMap">
+        select *
+        from admin
+        where id=#{id}
+    </select>
+</mapper>

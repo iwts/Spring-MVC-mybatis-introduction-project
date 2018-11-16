@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.iwts.mapper.UserMapper">
+    <resultMap id="userResultMap" type="me.iwts.bean.User">
+        <id property="account" column="account" javaType="String" />
+        <result property="passwd" column="passwd" javaType="String" />
+        <result property="phone" column="phone" javaType="String" />
+        <result property="email" column="email" javaType="String" />
+        <result property="userName" column="userName" javaType="String" />
+    </resultMap>
+
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="account">
+        insert into user (account,passwd,phone,email,userName)
+        values (#{account},#{passwd},#{phone},#{email},#{userName})
+    </insert>
+
+    <update id="updateUser" >
+        update user
+        set passwd=#{passwd},phone=#{phone},email=#{email},userName=#{userName}
+        where account=#{account}
+    </update>
+
+    <delete id="deleteUser" parameterType="String">
+        delete from user where account=#{account}
+    </delete>
+
+    <select id="selectUserByAccount" resultMap="userResultMap">
+        select *
+        from user
+        where account=#{account}
+    </select>
+
+    <select id="selectAllUser" resultMap="userResultMap">
+        select *
+        from user
+    </select>
+</mapper>

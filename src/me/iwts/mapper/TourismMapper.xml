@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="me.iwts.mapper.TourismMapper">
+    <resultMap id="tourismResultMap" type="me.iwts.bean.Tourism">
+        <id property="id" column="id" javaType="Integer" />
+        <result property="name" column="name" javaType="String" />
+        <result property="fromAddress" column="fromAddress" javaType="String" />
+        <result property="toAddress" column="toAddress" javaType="String" />
+        <result property="beginTime" column="beginTime" javaType="Date" />
+        <result property="price" column="price" javaType="Double" />
+        <result property="imageUrl" column="imageUrl" javaType="String" />
+        <result property="hot" column="hot" javaType="Boolean" />
+    </resultMap>
+
+    <insert id="insertTourism" useGeneratedKeys="true" keyProperty="id">
+        insert into tourism (id,name,fromAddress,toAddress,beginTime,price,imageUrl)
+        values (#{id},#{name},#{fromAddress},#{toAddress},#{beginTime},#{price},#{imageUrl})
+    </insert>
+
+    <update id="updateTourism" >
+        update tourism
+        set id=#{id},name=#{name},fromAddress=#{fromAddress},toAddress=#{toAddress},beginTime=#{beginTime},price=#{price},imageUrl=#{imageUrl}
+        where id=#{id}
+    </update>
+
+    <update id="updateTourismHot">
+        update tourism
+        set hot=#{hot}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteTourism" parameterType="String">
+        delete from tourism
+        where id=#{id}
+    </delete>
+
+    <select id="selectTourismByHot" resultMap="tourismResultMap">
+        select *
+        from tourism
+        where hot=1
+    </select>
+
+    <select id="selectTourismById" resultMap="tourismResultMap">
+        select *
+        from tourism
+        where id=#{id}
+    </select>
+
+    <select id="selectAllTourism" resultMap="tourismResultMap">
+        select *
+        from tourism
+    </select>
+</mapper>
