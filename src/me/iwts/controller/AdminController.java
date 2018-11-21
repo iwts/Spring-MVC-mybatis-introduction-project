@@ -2,20 +2,16 @@ package me.iwts.controller;
 
 import me.iwts.bean.Admin;
 import me.iwts.mapper.AdminMapper;
-import me.iwts.mapper.UserMapper;
 import me.iwts.tools.ViewTool;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.Reader;
 
