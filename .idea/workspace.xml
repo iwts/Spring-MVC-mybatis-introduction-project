@@ -7,19 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ab7cfd-bb2c-4bad-a2fe-894820d53a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/controller/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/TourismOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/TourismOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/listener/ContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/listener/ContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/TourismController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/TourismController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/TourismOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/controller/TourismOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/listener/ContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/me/iwts/listener/ContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/controller/TourismController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/controller/TourismController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/controller/TourismOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/controller/TourismOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/me/iwts/listener/ContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/me/iwts/listener/ContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181113205147捕获2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181113205538图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181113210016图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181113210221图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181114083512图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181114084540图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181114170350图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181114172721图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/181116181829-7Q5-6ebyZ2nT3cSg4-2c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/beijing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/db/beijing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/luoyang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/db/luoyang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/db/taiyangdao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/db/taiyangdao.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/maintable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/css/u_info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/333.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/nav-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/other.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/sbmore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/sbtip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/images/user.jpg@64h_64w_2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/js/jquery-1.8.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/js/jquery.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/js/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/js/slider_bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文件夹/register.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +74,15 @@
     <session id="-1490472834">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.54" value="1" />
@@ -57,43 +102,47 @@
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.964" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="css" value="1" />
-          <entry key="java" value="124" />
-          <entry key="jsp" value="72" />
+          <entry key="css" value="17" />
+          <entry key="html" value="2" />
+          <entry key="java" value="126" />
+          <entry key="jpg" value="1" />
+          <entry key="jsp" value="84" />
           <entry key="properties" value="6" />
-          <entry key="xml" value="64" />
+          <entry key="xml" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="1" />
-          <entry key="JAVA" value="124" />
-          <entry key="JSP" value="72" />
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="126" />
+          <entry key="JSP" value="84" />
           <entry key="Properties" value="6" />
-          <entry key="XML" value="64" />
+          <entry key="XML" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="15" />
-          <entry key="java" value="22952" />
-          <entry key="jsp" value="5908" />
+          <entry key="css" value="454" />
+          <entry key="java" value="23056" />
+          <entry key="jsp" value="8634" />
           <entry key="properties" value="344" />
           <entry key="xml" value="1694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="15" />
-          <entry key="JAVA" value="22952" />
-          <entry key="JSP" value="5908" />
+          <entry key="CSS" value="454" />
+          <entry key="JAVA" value="23056" />
+          <entry key="JSP" value="8634" />
           <entry key="Properties" value="344" />
           <entry key="SQL" value="21" />
           <entry key="XML" value="1673" />
@@ -109,15 +158,82 @@
     <favorites_list name="project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1426">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="95" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/signin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-447">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="CSS File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -135,22 +251,12 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/sign-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/register_success-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/register_error-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/properties/user.properties" />
-        <option value="$PROJECT_DIR$/src/properties/user.properties" />
-        <option value="$PROJECT_DIR$/src/properties/mysql.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/me/iwts/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/me/iwts/mapper/userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/me/iwts/viewTool/ViewTool.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" />
         <option value="$PROJECT_DIR$/src/me/iwts/bean/Admin.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/AdminMapper.java" />
@@ -160,23 +266,18 @@
         <option value="$PROJECT_DIR$/src/me/iwts/listener/RequestListener.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/css/a.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/TourismOrder.xml" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/TourismOrder.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/bean/TourismOrder.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/add_tourism.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/add_tourism-test.jsp" />
         <option value="$PROJECT_DIR$/src/me/iwts/bean/User.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/fomatter/DateFormatter.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/converter/DateConverter.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/bean/Tourism.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" />
         <option value="$PROJECT_DIR$/src/me/iwts/tools/ViewTool.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/TourismOrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/me/iwts/mapper/TourismOrderMapper.java" />
@@ -191,6 +292,22 @@
         <option value="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/controller/TourismOrderController.java" />
         <option value="$PROJECT_DIR$/src/me/iwts/listener/ContextListener.java" />
+        <option value="$PROJECT_DIR$/src/me/iwts/test/TestController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/index.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/me/iwts/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/web/css/maintable.css" />
+        <option value="$PROJECT_DIR$/web/css/register.css" />
+        <option value="$PROJECT_DIR$/web/css/top.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/test.jsp" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" />
+        <option value="$PROJECT_DIR$/web/css/signin.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" />
       </list>
     </option>
   </component>
@@ -207,7 +324,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="123" />
     <option name="y" value="54" />
     <option name="width" value="1094" />
@@ -248,21 +365,32 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iwts" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iwts" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +423,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542193771761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542805798413" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ext/commons-io-2.6.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="X:/nodejs/node" />
@@ -436,16 +564,20 @@
       <workItem from="1542596257711" duration="1655000" />
       <workItem from="1542622326414" duration="2624000" />
       <workItem from="1542695156820" duration="762000" />
+      <workItem from="1542766124037" duration="693000" />
+      <workItem from="1542769237042" duration="1012000" />
+      <workItem from="1542776797602" duration="26939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192100000" />
+    <option name="totallyTimeSpent" value="220744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17918456" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +587,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.33296213" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.33296213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +595,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005365" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.33296213" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -480,7 +612,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17381974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,17 +622,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.33296213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32962137" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005365" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.33296213" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -522,60 +654,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/ext/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/sign-test.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/viewTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/viewTool/ViewTool.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register_success-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin-console-test.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/listener/SessionListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/controller/A.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/listener/RequestListener.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/ext/mybatis-3.4.6.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/a.css" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/mapper/TourismOrder.xml" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/mapper/TourismOrder.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/iwts/bean/TourismOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/add_tourism.jsp" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/add_tourism-test.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/iwts/fomatter/DateFormatter.java" />
     <entry file="file://$PROJECT_DIR$/src/me/iwts/converter/DateConverter.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp">
@@ -603,13 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -662,20 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/iwts/tools/ViewTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -707,41 +765,10 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/iwts/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3658">
           <caret line="139" column="5" selection-start-line="127" selection-start-column="4" selection-end-line="139" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="20" column="45" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -749,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,10 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding>
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,6 +818,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/iwts/test/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="107" column="16" lean-forward="true" selection-end-line="193" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/form.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/maintable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/u_info.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/top.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="127" column="53" lean-forward="true" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/iwts/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/db/beijing.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="95" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1426">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
