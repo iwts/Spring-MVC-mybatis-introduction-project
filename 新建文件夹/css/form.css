@@ -1,0 +1,19 @@
+#users{
+	text-align: center;
+	background-color: #ffffff;
+	height:500px;
+	width: 700px;
+	border:1px solid rgba(0,0,0,0);
+}
+#u_form{
+	margin-top: 50px;
+}
+#n{
+	margin-top: 20px;
+}
+#t{
+	margin-top: 20px;
+}
+#e{
+	margin-top: 20px;
+}

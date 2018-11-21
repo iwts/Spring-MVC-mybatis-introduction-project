@@ -1,0 +1,127 @@
+/* 用于所有呈现数据的列表页 */
+*{ 
+	margin:0;
+	padding:0;
+}
+
+.div_title{
+	width:99.5%;  /*可以用小数,有效*/
+	height:24px;
+	background:#353C44;
+	margin:0px auto;
+	margin-top:3px;
+	position:relative;	 	
+}
+
+/* 左上方的 管理人员信息列表 等信息 */
+.div_titlename{
+	length:200px;
+	position:absolute;
+	color:#E1E2E3;
+	font-size:12px;
+	top:4px;
+	vertical-align:middle;
+}
+
+ /*右上方的删除, 添加, 修改 等信息与按钮图片 */
+.div_titleoper{
+	float:right;
+	color:#E1E2E3;
+	font-size:12px;
+  line-height:24px;
+ 	length:200px;
+	margin-right:20px;		
+	color:#E1E2E3;	
+}
+
+.div_titleoper a{
+	color:#E1E2E3;	
+	text-decoration:none;
+	border:none;
+}
+
+
+.div_titleoper img{
+	margin-left:10px;
+	border:none;
+}
+
+.div_titlename img{
+ 		vertical-align:middle;
+ 		margin-left:10px;
+ 		margin-right:8px;
+ 		display:inline-block;
+ 		
+}
+
+/* 呈现数据的主表 */
+.main_table{
+		margin:0 auto;
+		width:99.5%;
+		border: 1px solid #A8C7CE;
+		border-collapse:collapse;
+		margin-top:5px;
+}
+
+.main_table td{
+		border: 1px solid #A8C7CE;
+		border-collapse:collapse;
+		font-size:12px;
+		height:20px;
+		padding-left:20px;
+}
+
+.main_table th{
+		border: 1px solid #A8C7CE;
+		border-collapse:collapse;
+		background:#D3EAEF;
+		font-size:12px;
+		font-weight:normal;
+		height:20px;
+}
+
+/* 主表下方的分页 */
+.div_page{
+  	width:98%;
+  	margin:0px auto;
+	  margin-top:8px;
+	  font-size:12px;
+	  height:20px;
+	  color:#295568;  
+}
+
+
+.div_page_left{
+		float:left;
+}
+
+.div_page_right{
+		float:right;
+}
+
+.div_page_right button{
+	background:url(../images/btn_bg.jpg) repeat;
+	border:1px solid #8FB9D0;
+	font-size:12px;
+	margin-left:8px;
+	line-height:14px;
+	color:#295568;
+	cursor:pointer;
+}
+
+.div_page_right button:hover{
+	color:red;
+}
+
+
+.div_page_left label{
+	font-weight:bold;  /*页码加粗显示*/
+	color:red;
+
+}
+
+.div_page_right input{
+	width:20px;
+	border:1px solid #8FB9D0;
+
+}
