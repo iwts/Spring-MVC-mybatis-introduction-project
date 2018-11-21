@@ -1,0 +1,23 @@
+#u_account{
+	margin-top:50px;
+}
+#password{
+	margin-top:15px;
+}
+#telnumber{
+	margin-top:15px;
+}
+#email{
+	margin-top:15px;
+}
+#u_name{
+	margin-top:15px;
+}
+#User_info{
+	text-align: center;
+	background-color: #ffffff;
+}
+#submit{
+	margin-top:15px;
+	margin-left: 20px;
+}

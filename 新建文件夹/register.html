@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
+    <link rel="stylesheet" type="text/css" href="./css/u_info.css">
+
+</head>
+<body>
+    <div class="top-outer">
+        <div class="top">
+            <div class="top-left">
+                <p>用户管理平台</p>
+            </div>
+            <ul class="top-right">
+                <li class="search">
+                    <input type="text" name="search">
+                    <a href="#"><i></i></a>
+                </li>
+                <li><a href="./admin.html">控制台</a></li>
+                <li><a href="./index.html"> 主页</a></li>
+                <li><a href="#">登录</a></li>
+                <li class="login"><a href="./register.html">免费注册</a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="head-outer">
+        <header class="top-header">
+            <img src="./images/333.png" width="82">
+            <span class="title-text">asdfds</span>
+        </header>
+    </div>
+ 	<div class="R_separate"></div>
+
+
+    <div id="loginDiv">
+    	<div id="titleBar">
+    		<a href="#" class ="user" >用户登陆</a>
+    		<a href="#" class= "user" >商家登陆</a>
+    	</div>
+    	<div class="showinfo" style="display: block;">
+    		<form method="post" id="User_info" action="xxxxx.jsp">
+    			<div id="u_account"> 账号 <input type="text" name="u_account" style="margin-left: 20px;"></div>
+    			<div id="password"> 密码 <input type="password" name="password" style="margin-left: 20px;"></div>
+    			<div id="telnumber"> 手机号 <input type="tel" name="telnumber" style="margin-left: 5px;"></div>
+    			<div id="email"> 邮箱 <input type="email" name="email" style="margin-left: 20px;"></div>
+    			<div id="u_name"> 用户名 <input type="text" name="u_name" style="margin-left: 5px;"></div>
+                <div id="submit" ><input type="submit" name="submit" value="submit"> <input type="reset" name="reset" value="reset" style="margin-left: 30px;"></div>
+    		</form>
+    	</div>
+    	<div class="showinfo" style="display: none;">
+    		<form method="post" id="User_info" action="xxxxx.jsp">
+    			<p>test</p>
+    			<div id="u_account"> 账号 <input type="text" name="u_account" style="margin-left: 20px;"></div>
+    			<div id="password"> 密码 <input type="password" name="password" style="margin-left: 20px;"></div>
+    			<div id="telnumber"> 手机号 <input type="tel" name="telnumber" style="margin-left: 5px;"></div>
+    			<div id="email"> 邮箱 <input type="email" name="email" style="margin-left: 20px;"></div>
+    			<div id="u_name"> 用户名 <input type="text" name="u_name" style="margin-left: 5px;"></div>
+                <div id="submit" ><input type="submit" name="submit" value="submit"> <input type="reset" name="reset" value="reset" style="margin-left: 30px;"></div>
+    		</form>
+    	</div>
+    </div>
+	<script type="text/javascript">
+		window.onload = function(){
+			var user = document.getElementsByClassName('user');
+			var showinfo = document.getElementsByClassName('showinfo');
+			for(var i = 0;i < user.length;i++){
+				user[i].index = i;alert(i);
+				user[i].onclick = function(){
+					for (var j=0;j < showinfo.length ;j++) {
+						showinfo[j].style.display="none";
+					}
+					showinfo[this.index].style.display="block";
+				}
+			}
+		}
+	</script>
+
+
+
+
+
+
+</body>
+</html>

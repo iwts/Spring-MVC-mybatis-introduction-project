@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/admin.css">
+    <link rel="stylesheet" type="text/css" href="./css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/maintable.css" ></link>
+
+ 
+    <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/jquery.accordion.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+        $('#navigation').accordion({
+            active:1,   /* 第三个被激活 */
+            header: '.head',
+            /*navigation1: false,  */
+            event: 'click',
+            fillSpace: true,
+            animated: 'bounceslide'   /*slide,bounceslide ,bounceslide,easeslide'*/
+        });
+    });
+</script>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div class="top-outer">
+        <div class="top">
+            <div class="top-left">
+                #######
+            </div>
+            <ul class="top-right">
+                <li class="search">
+                    <input type="text" name="search">
+                    <a href="#"><i></i></a>
+                </li>
+                <li><a href="./admin.html">控制台</a></li>
+                <li><a href="./index.html"> 主页</a></li>
+                <li><a href="#">登录</a></li>
+                <li class="login"><a href="./register.html">免费注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="head-outer">
+        <header class="top-header">
+            <span class="title-text">#####</span>
+        </header>
+    </div>
+    
+		<div class="body_center_left">
+			<ul id="navigation">
+				<li style="border-bottom:1px solid；">
+                    <a class="head">旅游小助手</a>
+                </li>
+                <li style="border-bottom:1px solid">
+                    <a class="head">度假旅游</a>
+                    <ul>
+                        <li>
+                                <a href=""><label>国内旅游</label></a>
+                        </li>
+                        <li>
+                                <a href=""><label>周边游</label></a>
+                        </li>
+                        <li>
+                                <a href=""><label>亲子游</label></a>
+                        </li>
+                    </ul>
+                </li>
+                <li style="border-bottom:1px solid">
+                    <a class="head">商品管理</a>
+                    <ul>
+                        <li>
+                                <a href=""><label> 商品添加</label></a>
+                                <a href=""><label>商品维护</label></a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li style="border-bottom:1px solid">
+                    <a class="head">会员中心</a>
+                    <ul>
+                        <li>    
+                                <a href=""><label>会员维护</label></a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li style="border-bottom:1px solid">
+                    <a class="head">我的计划</a>
+                    <ul>
+                        <li>
+                                <a href=""><label>订单维护</label></a>
+                        </li>
+                    </ul>
+                </li>
+                
+			    <li> <a class="head">联系我们</a></li>
+  		</ul>
+		</div>
+		<div id="loopDiv">
+			<img id="pic" src="images/0.jpg">
+		    <ul id="list">
+		        <li id="pic">1</li>
+		        <li id="pic">2</li>
+		        <li id="pic">3</li>
+		    </ul>
+		    <div id="left" class="chooseBut"><</div>
+		    <div id="right" class="chooseBut">></div>
+		</div>
+    <div style="height:19px;"></div>
+
+    <div id="showbusiness">
+    	<div id="showbusiness_top">
+    		<div style="font-size:17px;margin-left:28px;font:"><strong>特卖会</strong></div>
+    		<a href="#"><div id="sbmore">更多优惠</div></a>
+    	</div>
+    	<div id="sbshopes">
+    		<div id="seller">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+    		<div id="seller" ">
+    			<img style="width:275px;height:170px;" src="images/0.jpg">
+    			<div id="bussiness_info"> 
+    				<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+    				<div id="cost">￥9999</div>
+    			</div>
+    		</div>
+       	</div>
+       	
+    </div>
+    <div class="bottom" > 
+    	<ul>
+    		<li><strong>作者</strong></li>
+    		<li>高克坤</li>
+    		<li>李东倍</li>
+    		<li></li>
+    	</ul>
+
+    </div>
+
+       <script type="text/javascript" src="js/slider_bar.js"></script>
+</body>
+</html>

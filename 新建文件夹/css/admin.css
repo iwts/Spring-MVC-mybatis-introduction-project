@@ -1,0 +1,127 @@
+
+.separate{
+    height: 60px;
+    width:100%;
+}
+
+.right-aside{
+    float: right;
+}
+
+.section{
+    background: #ffffff;
+    width: 380px;
+}
+.section h2{
+    font-size: 21px;
+    font-weight: lighter;
+    padding-top: 16px;
+    padding-left: 30px;
+    float: left;
+}
+.section hr{
+    height: 1px;
+    width: 320px;
+    background: #d5d1d1;
+    border-style: none;
+    margin: 0px auto;
+    margin-top: 11px;
+}
+.author{
+    height: 220px;
+}
+.user-left{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 37px;
+}
+.user-right{
+    height: 120px;
+    width: 200px;
+    float: right;
+    margin-top: 27px;
+    margin-right: -16px;
+}
+.user-right>h3{
+    color: #333;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+}
+.user-right>p{
+    font-size: 12px;
+    color: #888888;
+    margin-top: 12px;
+}
+.user-right>span{
+    display: block;
+    height: 34px;
+    width: 98px;
+    border-style: solid;
+    border-color: #36f;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 17px;
+}
+.user-right>span>a{
+    height: 34px;
+    width: 98px;
+    display: block;
+    line-height: 34px;
+    font-size: 14px;
+    color: #36f;
+}
+.user-right>span>a:hover{
+    color: #ffffff;
+    background: #36f;
+    transition: background 0.6s;
+    -moz-transition: background 0.6s; /* Firefox 4 */
+    -webkit-transition: background 0.6s; /* Safari 和 Chrome */
+    -o-transition: background 0.6s;
+}
+.other{
+    margin-top: 30px;
+    height: auto;
+}
+.other>header a{
+    font-size: 10px;
+    color: #36f;
+    float: right;
+    margin-top: 24px;
+    margin-right: 32px;
+}
+.other>header a:hover{
+    text-decoration: underline;
+}
+.list{
+    height: auto;
+    width:294px;
+    margin-top:20px;
+    margin-left: 48px;
+    padding-bottom: 18px;
+}
+.list>li{
+    list-style-type: inherit;
+}
+.list>li>a{
+    font-size: 13px;
+    color: #888888;
+}
+.list>li>a:hover{
+    color: #36f;
+}
+
+main{
+    height:auto;
+    width:790px;
+    background: #ffffff;
+}
+.show_Goodsinfo{
+	width:500px;
+	height:600px;
+	background-color:#ffffff;
+}
