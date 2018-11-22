@@ -95,7 +95,7 @@
     font-size: 10px;
     color: #36f;
     float: right;
-    margin-top: 24px;
+    margin-top: 42px;
     margin-right: 32px;
 }
 .other>header a:hover{
@@ -124,6 +124,7 @@ main{
     width:780px;
     background: #ffffff;
     float: right;
+    min-height: 437px;
 }
 .main-article>header{
     height: 100px;

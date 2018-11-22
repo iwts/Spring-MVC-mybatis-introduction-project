@@ -1,9 +1,12 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="signin.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 <body>
     <div class="navbar-wrapper" style="background: #333333;height: 51px;margin-top: -40px;">
@@ -23,7 +26,23 @@
                         <ul class="nav navbar-nav">
                             <li><a href="#">国内游</a></li>
                             <li><a href="#">关于飞猫</a></li>
-                            <li id="change"><a href="#">管理员登录</a></li>
+                            <li>
+                                <c:choose>
+                                    <c:when test="${sessionScope.isLogin == true}">
+                                        <c:choose>
+                                            <c:when test="${sessionScope.isAdmin == true}">
+                                                <a href="/getAdminConsole.action">${sessionScope.account}</a>
+                                            </c:when>
+                                            <c:otherwise>
+                                                <a href="/getProfile.action">${sessionScope.userName}</a>
+                                            </c:otherwise>
+                                        </c:choose>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <a href="/getLogin.action">登录</a>
+                                    </c:otherwise>
+                                </c:choose>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -31,5 +50,6 @@
         </div>
     </div>
 
+    <h1 class="animated fadeInUp" style="margin: 150px auto;font-size: 50px;width: 300px;">添加成功！</h1>
 </body>
 </html>

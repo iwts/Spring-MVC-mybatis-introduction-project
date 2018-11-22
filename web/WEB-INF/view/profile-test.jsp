@@ -58,6 +58,7 @@
             <section class="other section">
                 <header>
                     <h2>个人信息</h2>
+                    <a href="/getProfile.action">修改信息</a>
                     <hr>
                 </header>
                 <ul class="list">
@@ -86,7 +87,5 @@
             </div>
         </main>
     </div>
-
-
 </body>
 </html>

@@ -59,7 +59,7 @@
             <input class="form-control" type="text" name="id" placeholder="ID" value=${admin.id}>
             <input class="form-control" type="password" name="passwd" placeholder="密码">
             <button class="btn btn-lg btn-primary btn-block" type="submit">
-                <input style="background: transparent;border: 0px;" type="submit" name="登录">
+                <input style="background: transparent;border: 0px;" type="submit" name="submit" value="登录">
             </button>
         </form:form>
     </div>

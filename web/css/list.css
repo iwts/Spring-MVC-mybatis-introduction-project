@@ -1,0 +1,56 @@
+.list-ul{
+    height: 39px;
+    padding-left: 28px;
+    line-height: 39px;
+    margin-bottom: 0px !important;
+}
+.list-ul li{
+    float: left;
+    margin-right: 15px;
+    width: 66px;
+}
+.list-id{
+    width: 7px !important;
+}
+.list-name{
+    width: 126px !important;
+}
+.list-date{
+    width: 77px !important;
+}
+.list-wrong{
+    height: 30px;
+    width: 200px;
+    display: block;
+    background: #fefcee;
+    line-height: 30px;
+    border: 1px solid #ff934c;
+    float: right;
+    margin-top: 29px;
+    margin-right: 33px;
+    text-align: center;
+}
+.list-upload{
+    width: 200px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.alter-form{
+    display: none;
+}
+
+#users h2{
+    font-size: 21px;
+    font-weight: lighter;
+    padding-top: 16px;
+    padding-left: 30px;
+    float: left;
+}
+#users hr{
+    height: 1px;
+    width: 720px;
+    background: #d5d1d1;
+    border-style: none;
+    margin: 0px auto;
+}

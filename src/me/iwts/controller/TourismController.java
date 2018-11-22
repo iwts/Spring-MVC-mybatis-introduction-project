@@ -121,7 +121,7 @@ public class TourismController {
         if(bindingResult.hasErrors()){
             request.setAttribute("alterError",true);
             request.setAttribute("alterMessage","修改失败，请不要输入空信息");
-            return new ModelAndView(ViewTool.TOURISM_CONSOLE);
+            return new ModelAndView(ViewTool.ADMIN_CONSOLE);
         }
 
         // 不进行数据对比，如果没有日期、图片则沿用之前，其他直接更新
@@ -165,7 +165,14 @@ public class TourismController {
 
         // 写入以后更新tourismList和hotList
         List<Tourism> tourismList = (List<Tourism>) request.getServletContext().getAttribute("tourismList");
-        tourismList.add(tourism);
+        for(Tourism temp : tourismList){
+            if(temp.getId() == tourism.getId()){
+                tourism.setHot(temp.getHot());
+                tourismList.remove(temp);
+                tourismList.add(tourism);
+                break;
+            }
+        }
         List<Tourism> hotList = (List<Tourism>) request.getServletContext().getAttribute("hotList");
         for(Tourism temp : hotList){
             if(temp.getId() == tourism.getId()){
@@ -273,6 +280,6 @@ public class TourismController {
     // tourism console重定向
     @RequestMapping("tourismConsoleRedirect")
     public ModelAndView tourismConsoleRedirect(){
-        return new ModelAndView(ViewTool.TOURISM_CONSOLE);
+        return new ModelAndView(ViewTool.ADMIN_CONSOLE);
     }
 }

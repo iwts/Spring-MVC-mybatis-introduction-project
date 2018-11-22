@@ -67,7 +67,7 @@
             <input class="form-control" type="text" name="userName" placeholder="昵称" value=${requestScope.user.userName}>
             <form:errors class="login-wrong" path="userName"></form:errors>
             <button class="btn btn-lg btn-primary btn-block" type="submit">
-                <input style="background: transparent;border: 0px;" type="submit" name="注册">
+                <input style="background: transparent;border: 0px;" type="submit" name="submit" value="注册">
             </button>
         </form:form>
     </div>
