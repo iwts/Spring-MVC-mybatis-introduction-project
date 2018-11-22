@@ -7,25 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ab7cfd-bb2c-4bad-a2fe-894820d53a59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/add_success-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/add_success-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/admin_console-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/admin_console-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/my_order-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/my_order-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/profile-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/profile-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/register_success-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/WEB-INF/view/register_success-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project_war_exploded/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project_war_exploded/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/register_success-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/register_success-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/tourism_console-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/tourism_console-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,9 +61,9 @@
           <entry key="html" value="2" />
           <entry key="java" value="128" />
           <entry key="jpg" value="1" />
-          <entry key="jsp" value="103" />
+          <entry key="jsp" value="108" />
           <entry key="properties" value="6" />
-          <entry key="xml" value="68" />
+          <entry key="xml" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -89,16 +73,16 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="128" />
-          <entry key="JSP" value="103" />
+          <entry key="JSP" value="108" />
           <entry key="Properties" value="6" />
-          <entry key="XML" value="68" />
+          <entry key="XML" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="755" />
           <entry key="java" value="23093" />
-          <entry key="jsp" value="9247" />
+          <entry key="jsp" value="9295" />
           <entry key="properties" value="344" />
           <entry key="xml" value="1694" />
         </counts>
@@ -107,7 +91,7 @@
         <counts>
           <entry key="CSS" value="755" />
           <entry key="JAVA" value="23093" />
-          <entry key="JSP" value="9247" />
+          <entry key="JSP" value="9295" />
           <entry key="Properties" value="344" />
           <entry key="SQL" value="21" />
           <entry key="XML" value="1673" />
@@ -125,10 +109,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state>
+              <caret selection-start-column="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -205,7 +189,6 @@
         <option value="$PROJECT_DIR$/web/css/signin.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/profile-test.jsp" />
         <option value="$PROJECT_DIR$/web/css/index.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/register_success-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/add_success-test.jsp" />
         <option value="$PROJECT_DIR$/src/me/iwts/controller/TourismController.java" />
@@ -213,9 +196,10 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/register-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/tourism_console-test.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp" />
       </list>
     </option>
   </component>
@@ -325,7 +309,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542873507091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542877013707" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ext/commons-io-2.6.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="X:/nodejs/node" />
@@ -470,12 +454,12 @@
       <workItem from="1542769237042" duration="1012000" />
       <workItem from="1542776797602" duration="26939000" />
       <workItem from="1542855263819" duration="5174000" />
-      <workItem from="1542865067811" duration="7544000" />
+      <workItem from="1542865067811" duration="10572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233462000" />
+    <option name="totallyTimeSpent" value="236490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -629,9 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/iwts/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3658">
@@ -717,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -780,27 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5363">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="61" column="94" selection-start-line="61" selection-start-column="94" selection-end-line="61" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2201">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin_console-test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
@@ -822,10 +775,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/index-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="175" column="73" lean-forward="true" selection-start-line="175" selection-start-column="73" selection-end-line="175" selection-end-column="73" />
+          <folding>
+            <element signature="e#8312#8318#0#HTML" expanded="true" />
+            <element signature="e#8318#8324#0#HTML" expanded="true" />
+            <element signature="e#8321#8329#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/details-test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state>
+          <caret selection-start-column="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/my_order-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>

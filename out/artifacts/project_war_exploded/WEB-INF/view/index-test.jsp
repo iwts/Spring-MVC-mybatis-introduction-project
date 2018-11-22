@@ -173,7 +173,7 @@
         <hr class="featurette-divider">
 
         <footer>
-            <p>2018 in hrbun<a href="#">关于飞猫</a> &middot; gkk & iwts</p>
+            <p>2018 in hrbun<a href="#">&nbsp;&nbsp;关于飞猫</a> &middot; kun & iwts</p>
         </footer>
     </div>
 
