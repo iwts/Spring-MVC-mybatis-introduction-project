@@ -3,10 +3,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="signin.css">
+    <title>飞猫旅行</title>
+    <link rel="stylesheet" type="text/css" href="/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/signin.css">
 </head>
 <body>
     <div class="navbar-wrapper" style="background: #333333;height: 51px;margin-top: -40px;">
@@ -24,8 +24,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">国内游</a></li>
-                            <li><a href="#">关于飞猫</a></li>
+                            <li><a href="/getTourismPage">国内游</a></li>
+                            <li><a href="/getAbout">关于飞猫</a></li>
                             <li><a href="/getRegister.action">免费注册</a></li>
                             <li id="change"><a href="#">管理员登录</a></li>
                         </ul>

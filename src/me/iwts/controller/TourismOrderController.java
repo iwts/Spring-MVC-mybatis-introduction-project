@@ -46,9 +46,7 @@ public class TourismOrderController {
                                  ServletResponse response, Model model){
         // 未登录则跳转到登录页面，登录后再跳转回来
         boolean isLogin = false;
-        if(session.getAttribute("isLogin") == null){
-            session.setAttribute("isLogin",true);
-        }else{
+        if(session.getAttribute("isLogin") != null){
             isLogin = (boolean) session.getAttribute("isLogin");
         }
         if(isLogin == false){
@@ -154,6 +152,10 @@ public class TourismOrderController {
         List<TourismOrder> orderList = (List<TourismOrder>) session.getAttribute("myOrder");
         HashMap<String,Tourism> tourismMap = (HashMap<String,Tourism>) session.getAttribute("myTourism");
         tourismMap.remove(id);
+        // 没有订单了
+        if(tourismMap.size() == 0){
+            session.setAttribute("haveOrder",false);
+        }
         for(TourismOrder temp : orderList){
             if(temp.getId().compareTo(id) == 0){
                 orderList.remove(temp);

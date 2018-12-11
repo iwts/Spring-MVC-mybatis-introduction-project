@@ -1,0 +1,118 @@
+.body html{
+    margin: 0;
+    padding: 0;
+}
+.total{
+    width: 1000px;
+    height: 2000px;
+    margin: 0px auto;
+}
+.body_l{
+    float: left;
+    height: 580px;
+}
+.body_r{
+    float: right;
+    height: 600px;
+}
+.prise {
+    height: 66px;
+    background-size: cover;
+}
+.bargin{
+    height: 66px;
+    width: 204px;
+    background: url("/images/cost_bargin.png");
+    float: right;
+}
+.goods_info{
+    display: inline-block;
+    height: 40px;
+}
+.discountinfo{
+    margin-left: 65px;
+    margin-top: 9px;
+}
+.client_judge{
+    border: 1px dashed #ddd;
+    border-width: 1px 0;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+    _zoom: 1;
+    clear: both;
+    display: flex;
+}
+.list-item{
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    left: -1px;
+    border-left: 1px solid #e5dfda;
+    flex: 1;
+    line-height: 16px;
+}
+.order_mess{
+    padding: 10px 0 10px 40px;
+    width: 570px;
+}
+.city_package{
+
+}
+.trival_info{
+    font-size: 12px;
+}
+.trival_info>span{
+    color: orange;
+    font-size: 42px;
+    margin-left: 105px;
+}
+
+.select_box{
+
+}
+.chose{
+
+}
+.list-chose{
+    font-size: 12px;
+    display: inline;
+    text-align: center;
+    line-height: 16px;
+    position: relative;
+    border: 1px solid #f80 ;
+    padding:0 5px 0 5px;
+}
+
+dl{
+    margin-left: 24px !important;
+    margin-bottom: -2px !important;
+}
+
+dt{
+    float: left !important;
+    margin-right: 11px !important;
+}
+
+dd{
+    margin: 0;
+    padding: 0;
+}
+
+.g-add{
+    display: block;
+    text-align: center;
+    width: 230px;
+    margin: 0px auto;
+    height: 40px;
+    line-height: 40px;
+    background: #00c1de;
+    color: #ffffff;
+}
+.g-add:hover{
+    color: #ffffff !important;
+}

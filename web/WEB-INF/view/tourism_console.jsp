@@ -4,7 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>飞猫旅行</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
@@ -29,8 +29,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">国内游</a></li>
-                            <li><a href="#">关于飞猫</a></li>
+                            <li><a href="/getTourismPage">国内游</a></li>
+                            <li><a href="/getAbout">关于飞猫</a></li>
                             <li><a href="/getRegister.action">免费注册</a></li>
                         </ul>
                     </div>

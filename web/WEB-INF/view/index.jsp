@@ -34,8 +34,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">国内游</a></li>
-                            <li><a href="#">关于飞猫</a></li>
+                            <li><a href="/getTourismPage">国内游</a></li>
+                            <li><a href="/getAbout">关于飞猫</a></li>
                             <li>
                                 <c:choose>
                                     <c:when test="${sessionScope.isLogin == true}">
@@ -117,19 +117,19 @@
                 <img class="img-circle" src="/images/flym.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>飞猫国内游</h2>
                 <p>飞猫专注于国内旅游，在国内任意市以上城市都设有飞猫始发站。无论您在何处，都能将您送到景点开始行程。带上行囊，一切的开始请交给我们！</p>
-                <p><a class="btn btn-default" href="#" role="button">开始一段旅程 &raquo;</a></p>
+                <p><a class="btn btn-default" href="/getTourismPage" role="button">开始一段旅程 &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="img-circle" src="/images/flym.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>关于飞猫</h2>
                 <p style=" margin-bottom: 30px;">没有尝试过飞猫？一段旅行不知从何开始？或是想与我们合作？众里寻他千百度，蓦然回首，飞猫就在此处...</p>
-                <p><a class="btn btn-default" href="#" role="button">了解我们 &raquo;</a></p>
+                <p><a class="btn btn-default" href="/getAbout" role="button">了解我们 &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="img-circle" src="/images/flym.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2>X</h2>
-                <p>X</p>
-                <p><a class="btn btn-default" href="#" role="button">X &raquo;</a></p>
+                <h2>加入我们</h2>
+                <p style="margin-bottom: 32px;">注册账号并加入我们吧！仅需数分钟就享受到我们提供的完美服务，随时恭候...</p>
+                <p><a class="btn btn-default" href="/getRegister.action" role="button">免费注册 &raquo;</a></p>
             </div>
         </div>
 
@@ -173,7 +173,7 @@
         <hr class="featurette-divider">
 
         <footer>
-            <p>2018 in hrbun<a href="#">&nbsp;&nbsp;关于飞猫</a> &middot; kun & iwts</p>
+            <p>2018 in hrbun<a href="/getAbout">&nbsp;&nbsp;关于飞猫</a> &middot; kun & iwts</p>
         </footer>
     </div>
 

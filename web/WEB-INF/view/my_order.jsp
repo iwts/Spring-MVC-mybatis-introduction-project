@@ -1,27 +1,38 @@
-<%--待完成--%>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>飞猫旅行</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="signin.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/signin.css">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link rel="stylesheet" type="text/css" href="/list.css">
+    <link rel="stylesheet" type="text/css" href="/animate.css">
+
     <style>
-        .test-ul{
-            height: 80px;
-            display: block;
+        .width-100{
+            width: 100px !important;
         }
-        .test-ul>li{
-            float: left;
-            width: 180px;
-            height: 25px;
-            line-height: 25px;
-            list-style-type: none;
+        .width-160{
+            width: 160px !important;
+        }
+        .my-button{
+            display: block;
+            text-align: center;
+            width: 68px;
+            margin: 0px auto;
+            height: 26px;
+            line-height: 26px;
+            background: #00c1de;
+            color: #ffffff;
+            border-radius: 5px;
+            margin-top: 6px;
+        }
+        .my-button:hover{
+            color: #ffffff;
         }
     </style>
 </head>
@@ -41,8 +52,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">国内游</a></li>
-                            <li><a href="#">关于飞猫</a></li>
+                            <li><a href="/getTourismPage">国内游</a></li>
+                            <li><a href="/getAbout">关于飞猫</a></li>
                             <li><a href="/getRegister.action">免费注册</a></li>
                         </ul>
                     </div>
@@ -84,33 +95,38 @@
         </aside>
         <main>
             <div id="users">
+                <h2>我的订单</h2>
+                <hr />
                 <c:choose>
                     <c:when test="${sessionScope.haveOrder == true}">
-                        <ul class="test-ul">
-                            <li>订单号</li>
-                            <li>旅游团编号</li>
-                            <li>旅游团名</li>
+                        <ul class="list-ul" style="margin-top: 29px;">
+                            <li class="width-100">订单号</li>
+                            <li class="width-100">旅游团编号</li>
+                            <li class="width-160">旅游团名</li>
                             <li>价格</li>
                         </ul>
                         <c:forEach items="${sessionScope.myOrder}" var="order">
-                            <ul class="test-ul">
-                                <li>${order.id}</li>
-                                <li>${order.tourismId}</li>
-                                <li>${sessionScope.myTourism[order.id].name}</li>
+                            <hr />
+                            <ul class="list-ul">
+                                <li class="width-100">${order.id}</li>
+                                <li class="width-100">${order.tourismId}</li>
+                                <li class="width-160">${sessionScope.myTourism[order.id].name}</li>
                                 <li>${sessionScope.myTourism[order.id].price}</li>
                                 <li>
                                     <!-- 可加js确认是否付款 -->
-                                    <a href="pay/${order.id}">结算订单</a>
+                                    <a class="my-button" href="pay/${order.id}">结算订单</a>
                                 </li>
                                 <li>
                                     <!-- 可加js确认是否取消 -->
-                                    <a href="removeOrder/${order.id}">取消订单</a>
+                                    <a class="my-button" href="removeOrder/${order.id}">取消订单</a>
                                 </li>
                             </ul>
                         </c:forEach>
                     </c:when>
                     <c:otherwise>
-                        <p>您还没有订单</p>
+                        <p class="animated fadeInUp" style="font-size: 38px;display: block;width: 300px;text-align: center;margin: 0px auto;margin-top: 136px;">
+                            您还没有订单
+                        </p>
                     </c:otherwise>
                 </c:choose>
             </div>

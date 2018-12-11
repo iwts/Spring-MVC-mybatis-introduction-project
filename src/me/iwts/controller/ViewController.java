@@ -2,8 +2,10 @@ package me.iwts.controller;
 
 import me.iwts.tools.ViewTool;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.View;
 
 @Controller
 public class ViewController {
@@ -36,5 +38,15 @@ public class ViewController {
     @RequestMapping("getTourismConsole")
     public ModelAndView getTourismConsole(){
         return new ModelAndView(ViewTool.TOURISM_CONSOLE);
+    }
+    // “关于”页面
+    @RequestMapping("getAbout")
+    public ModelAndView getAbout(){
+        return new ModelAndView(ViewTool.ABOUT);
+    }
+    // 国内游页面
+    @RequestMapping("getTourismPage")
+    public ModelAndView getTourismPage(){
+        return new ModelAndView(ViewTool.TOURISM);
     }
 }

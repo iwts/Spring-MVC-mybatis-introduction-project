@@ -1,27 +1,15 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>飞猫旅行</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="signin.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <style>
-        .test-ul{
-            height: 80px;
-            display: block;
-        }
-        .test-ul>li{
-            float: left;
-            width: 180px;
-            height: 25px;
-            line-height: 25px;
-            list-style-type: none;
-        }
-    </style>
+
 </head>
 <body>
     <div class="navbar-wrapper" style="background: #333333;height: 51px;margin: 0px;">
@@ -39,8 +27,8 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">国内游</a></li>
-                            <li><a href="#">关于飞猫</a></li>
+                            <li><a href="/getTourismPage">国内游</a></li>
+                            <li><a href="/getAbout">关于飞猫</a></li>
                             <li><a href="/getRegister.action">免费注册</a></li>
                         </ul>
                     </div>
@@ -48,6 +36,7 @@
             </nav>
         </div>
     </div>
+
 
     <div class="outer">
         <div class="separate"></div>
@@ -82,35 +71,19 @@
         </aside>
         <main>
             <div id="users">
-                <c:choose>
-                    <c:when test="${sessionScope.haveOrder == true}">
-                        <ul class="test-ul">
-                            <li>订单号</li>
-                            <li>旅游团编号</li>
-                            <li>旅游团名</li>
-                            <li>价格</li>
-                        </ul>
-                        <c:forEach items="${sessionScope.myOrder}" var="order">
-                            <ul class="test-ul">
-                                <li>${order.id}</li>
-                                <li>${order.tourismId}</li>
-                                <li>${sessionScope.myTourism[order.id].name}</li>
-                                <li>${sessionScope.myTourism[order.id].price}</li>
-                                <li>
-                                    <!-- 可加js确认是否付款 -->
-                                    <a href="pay/${order.id}">结算订单</a>
-                                </li>
-                                <li>
-                                    <!-- 可加js确认是否取消 -->
-                                    <a href="removeOrder/${order.id}">取消订单</a>
-                                </li>
-                            </ul>
-                        </c:forEach>
-                    </c:when>
-                    <c:otherwise>
-                        <p>您还没有订单</p>
-                    </c:otherwise>
-                </c:choose>
+                <form:form style="margin: 73px auto;" class="form-signin" modelAttribute="user" action="/alterUser.action" method="post">
+                    <input class="form-control" type="password" placeholder="密码" name="passwd" />
+                    <form:errors class="login-wrong" path="passwd"></form:errors>
+                    <input class="form-control" type="email" placeholder="邮箱" name="email">
+                    <form:errors class="login-wrong" path="email"></form:errors>
+                    <input class="form-control" type="text" placeholder="手机" name="phone">
+                    <form:errors class="login-wrong" path="phone"></form:errors>
+                    <input class="form-control" type="text" placeholder="用户名" name="userName">
+                    <form:errors class="login-wrong" path="userName"></form:errors>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        <input style="background: transparent;border: 0px;" type="submit" name="submit" value="修改信息">
+                    </button>
+                </form:form>
             </div>
         </main>
     </div>
