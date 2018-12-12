@@ -1,7 +1,6 @@
 package me.iwts.mapper;
 
 import me.iwts.bean.User;
-
 import java.util.List;
 
 public interface UserMapper {

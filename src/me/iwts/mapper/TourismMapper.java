@@ -1,8 +1,6 @@
 package me.iwts.mapper;
 
 import me.iwts.bean.Tourism;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public interface TourismMapper {

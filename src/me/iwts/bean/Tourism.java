@@ -2,12 +2,8 @@ package me.iwts.bean;
 
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.validation.constraints.Future;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.Date;
-
 
 public class Tourism {
     private int id;

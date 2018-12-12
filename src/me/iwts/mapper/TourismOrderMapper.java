@@ -1,7 +1,6 @@
 package me.iwts.mapper;
 
 import me.iwts.bean.TourismOrder;
-
 import java.util.List;
 
 public interface TourismOrderMapper {

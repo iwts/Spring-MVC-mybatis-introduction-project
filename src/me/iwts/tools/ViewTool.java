@@ -13,4 +13,5 @@ public class ViewTool {
     public static final String MY_ORDER = "my_order";
     public static final String ABOUT = "about";
     public static final String TOURISM = "tourism";
+    public static final String REMOVE_TOURISM = "remove_tourism";
 }

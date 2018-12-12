@@ -44,11 +44,11 @@ public class TourismController {
     public ModelAndView details(@PathVariable int id, ServletRequest request, Model model){
         ServletContext application = request.getServletContext();
         // 直接匹配，省略了调用数据库的过程
-        List<Tourism> hotList = (List<Tourism>) application.getAttribute("hotList");
+        List<Tourism> tourismList = (List<Tourism>) application.getAttribute("tourismList");
         Tourism tourism = null;
-        for(int i = 0;i < hotList.size();i++){
-            if(id == hotList.get(i).getId()){
-                tourism = hotList.get(i);
+        for(int i = 0;i < tourismList.size();i++){
+            if(id == tourismList.get(i).getId()){
+                tourism = tourismList.get(i);
                 break;
             }
         }
@@ -282,4 +282,10 @@ public class TourismController {
     public ModelAndView tourismConsoleRedirect(){
         return new ModelAndView(ViewTool.ADMIN_CONSOLE);
     }
+
+    // 删除旅行
+//    @RequestMapping("removeTourism/{id}")
+//    public ModelAndView removeTourism(@PathVariable int id,ServletRequest request){
+//
+//    }
 }

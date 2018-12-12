@@ -5,10 +5,11 @@
     <title>飞猫旅行</title>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="signin.css">
-    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/signin.css">
+    <link rel="stylesheet" type="text/css" href="/animate.css">
+    <link rel="stylesheet" type="text/css" href="/tourism.css">
 </head>
 <body>
     <div class="navbar-wrapper" style="background: #333333;height: 51px;margin-top: -40px;">
@@ -53,5 +54,33 @@
         </div>
     </div>
 
+    <div class="image-title">
+        <img src="/images/cost_bargin.png" width="204">
+    </div>
+    <div class="hot-div">
+        <c:forEach items="${applicationScope.hotList}" var="hotTourism">
+            <div class="hot-div-three">
+                <img src="${applicationScope.imagesUrl}${hotTourism.imageUrl}" width="310">
+                <span>${hotTourism.name}</span>
+                <a href="/details/tourism/${hotTourism.id}">了解详情</a>
+            </div>
+        </c:forEach>
+    </div>
+    <div class="image-title">
+        <img src="/images/cost_bargin_more.png" width="204">
+    </div>
+    <div class="more-div">
+        <c:forEach items="${applicationScope.tourismList}" var="tourism">
+            <%--只显示非热门旅行--%>
+            <c:if test="${tourism.hot != true}">
+                <div class="more-div-line">
+                    <img src="${applicationScope.imagesUrl}${tourism.imageUrl}" width="310">
+                    <h3>${tourism.name}</h3>
+                    <span>${tourism.price}</span>
+                    <a href="/details/tourism/${tourism.id}">了解详情</a>
+                </div>
+            </c:if>
+        </c:forEach>
+    </div>
 </body>
 </html>
